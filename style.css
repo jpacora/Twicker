@@ -1,0 +1,50 @@
+body {
+	margin:0 0 0 0;
+	width:100%;
+	height:100%;
+}
+
+
+#ticker {
+	background: #3399cc url("background.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	
+	width:100%;
+	height:140px;
+	color:white;
+	text-shadow:2px 2px 4px #000000;
+}
+
+#twit {
+	font-size:35px;
+	position:absolute;
+	left:10px;
+	margin-right:10px;
+	height: 120px;
+	overflow: hidden;
+	list-style: none;
+}
+
+#twit li {
+	padding-top: 10px;
+	height: 140px;
+}
+
+.circle {
+	float: left;
+  display: block;
+  width: 95px;
+  height: 95px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+}
+
